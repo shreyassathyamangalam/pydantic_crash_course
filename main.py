@@ -44,6 +44,6 @@ patient_info = {
     }
 }
 
-patient1 = Patent(**patient_info)
+patient1 = Patient(**patient_info)
 
 insert_patent_data(patient1)
